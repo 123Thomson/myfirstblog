@@ -1,0 +1,36 @@
+# Python
+*.pyc
+*~
+__pycache__
+
+# Env
+.env
+myvenv/
+venv/
+
+# Database
+db.sqlite3
+
+# Static folder at project root
+/static/
+
+# macOS
+._*
+.DS_Store
+.fseventsd
+.Spotlight-V100
+
+# Windows
+Thumbs.db*
+ehthumbs*.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Visual Studio
+.vscode/
+.history/
+*.code-workspace
+
+#$ pa_autoconfigure_django.py --python=3.8 https://github.com/Aswin-00/my-first-blog.git
+#git remote add origin https://github.com/Aswin-00/my-first-blog.git
+#pa_autoconfigure_django.py https://github.com/Aswin-00/my-first-blog.git --domain=usersdomain.pythonanywhere.com --python=3.8 --nuke
